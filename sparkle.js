@@ -427,7 +427,7 @@ bot.on('speak', function (data) {
 
 		case 'help':
 		case 'commands':
-			bot.speak('commands: .ad, bonus, points, ping, reptar, merica, .random, platforms, '
+			bot.speak('commands: .ad, bonus, points, ping, reptar, platforms, '
 				+ '.twitter, .rules, .users, .owner, .source, mystats, mostplayed, '
 				+ 'mostawesomed, mymostplayed, mymostawesomed, '
 				+ 'pastnames [username], .similar, .similarartists');
@@ -1093,8 +1093,8 @@ bot.on('newsong', function (data) {
 
 	//Check something
 	if ((currentsong.artist.indexOf('Skrillex') != -1) || (currentsong.song.indexOf('Skrillex') != -1)) {
-		bot.remDj(currentsong.djid);
-		bot.speak('NO.');
+		//bot.remDj(currentsong.djid);
+		bot.speak('Aw man....');
 	}
 
 	//Enforce stepdown rules

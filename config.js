@@ -33,11 +33,11 @@ exports.DBLOGIN       =  {
 //TCP Setup
 exports.useTCP = true;
 exports.tcpPort = 8180;
-exports.tcpHost = '127.0.0.1';
+exports.tcpHost = '0.0.0.0';
 
 //Last.fm API key for use with last.fm API calls
 //Obtain an API key at http://www.last.fm/api/ or disable under Flags
-exports.lastfmkey = '#####';
+exports.lastfmkey = 'a8bd9d284f15c247a2c3e29095ffa3cd';
 
 //Flags
 exports.logConsoleEvents = false;	//Log room data in console
@@ -45,8 +45,8 @@ exports.autoAwesome      = true;	//Auto-awesomes every song
 exports.autoRejoin       = true;	//Will re-join a room after being booted
 exports.reportSongStats = true;		//Reports song stats in chat after each song
 exports.welcomeUsers    = true;		//Welcomes users in chat
-exports.welcomeGreeting = 'Hi, ';	//Greeting for users
-exports.ownerResponse   = 'sharedferret is my owner!'; //Owner response
-exports.oneDownEnforce  = true;		//Enforce a One & Down room policy
+exports.welcomeGreeting = 'Hiya papaya ';	//Greeting for users
+exports.ownerResponse   = 'Kendy is my owner!'; //Owner response
+exports.oneDownEnforce  = false;		//Enforce a One & Down room policy
 exports.botSing			= false;	//Bot sings parts of certain songs
-exports.uselastfmAPI    = false;	//Use the last.fm API for certain calls
+exports.uselastfmAPI    = true;	//Use the last.fm API for certain calls
